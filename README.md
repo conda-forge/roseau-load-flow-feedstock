@@ -1,13 +1,13 @@
 About roseau-load-flow-feedstock
 ================================
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/roseau-load-flow-feedstock/blob/main/LICENSE.txt)
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/Roseau_Load_Flow_Feedstock-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/RoseauTechnologies/Roseau_Load_Flow/
 
 Package license: BSD-3-Clause
 
-Summary: Highly capable three-phase load flow solver of Roseau Technologies.
+Summary: Highly capable three-phase load flow solver
 
 Documentation: https://roseautechnologies.github.io/Roseau_Load_Flow/
 
@@ -17,8 +17,8 @@ Current build status
 
 <table><tr><td>All platforms:</td>
     <td>
-      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=18883&branchName=main">
-        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/roseau-load-flow-feedstock?branchName=main">
+      <a href="https://dev.azure.com/conda-forge/feedstock-builds/_build/latest?definitionId=&branchName=main">
+        <img src="https://dev.azure.com/conda-forge/feedstock-builds/_apis/build/status/Roseau_Load_Flow_Feedstock-feedstock?branchName=main">
       </a>
     </td>
   </tr>
