@@ -1,5 +1,5 @@
 {% set name = "roseau-load-flow" %}
-{% set version = "0.4.0" %}
+{% set version = "0.5.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/roseau_load_flow-{{ version }}.tar.gz
-  sha256: eed2ed977f5c33d4cf7957c9af9360fb656ae8e1d672b75a13e18866dbfe5fcb
+  sha256: b52d24da0dd314d349ad4fff597637424fb757c30cac12657bf383161216d216
 
 build:
   noarch: python
@@ -27,8 +27,9 @@ requirements:
     - shapely >=2.0.0
     - regex >=2022.1.18
     - requests >=2.28.1
-    - pint >=0.19.2
+    - pint >=0.21.0
     - typing-extensions >=4.6.2
+    - rich >=13.5.1
 
 test:
   imports:
@@ -41,7 +42,6 @@ test:
     - pip check
   requires:
     - pip
-
 
 about:
   home: https://github.com/RoseauTechnologies/Roseau_Load_Flow/
