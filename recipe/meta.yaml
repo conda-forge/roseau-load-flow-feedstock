@@ -1,5 +1,5 @@
 {% set name = "roseau-load-flow" %}
-{% set version = "0.5.0" %}
+{% set version = "0.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/roseau_load_flow-{{ version }}.tar.gz
-  sha256: b52d24da0dd314d349ad4fff597637424fb757c30cac12657bf383161216d216
+  sha256: a077934286576f40127ef0a791942c2e7f5ec9c34b5d5d7e80f12bfabd7baf64
 
 build:
   noarch: python
@@ -30,6 +30,8 @@ requirements:
     - pint >=0.21.0
     - typing-extensions >=4.6.2
     - rich >=13.5.1
+    - matplotlib >=3.7.2
+    - networkx >=3.0.0
 
 test:
   imports:
