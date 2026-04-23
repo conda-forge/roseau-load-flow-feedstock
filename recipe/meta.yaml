@@ -1,5 +1,5 @@
 {% set name = "roseau-load-flow" %}
-{% set version = "0.6.0" %}
+{% set version = "0.13.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,12 +7,12 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/roseau_load_flow-{{ version }}.tar.gz
-  sha256: a077934286576f40127ef0a791942c2e7f5ec9c34b5d5d7e80f12bfabd7baf64
+  sha256: 94b6fc5903bb22d19953e0c24ed59b2fa91b549f20dabf6580c6245953527c83
 
 build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
-  number: 2
+  number: 0
 
 requirements:
   host:
